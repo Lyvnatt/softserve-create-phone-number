@@ -1,3 +1,5 @@
+//Create Phone Number
+
 function createPhoneNumber(arr) {
   let phoneNumber = '(';
   phoneNumber += arr.splice(0,3).join('');
